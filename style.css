@@ -1,9 +1,21 @@
 body
-{
+{   
+    margin:0px;
+    padding: 0px;
     font-family: 'Roboto Mono', monospace;
 }
-.section1 h1
+section
 {
+    height: 500px;
+}
+.section1
+{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+  
+}
+.section1 h1
+{    
     font-size: 35px;
 }
 .name-color
