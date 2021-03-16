@@ -1,13 +1,11 @@
 
-
-
-
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {  
-    
-    
-
-
+     h1,h3
+     {
+         text-align: center;
+     }
+     
     .half-width
     {
         width:100%;
@@ -16,9 +14,16 @@
         padding: none;
        
     }
+    .dream-area
+    {
+        background-image: none;
+    }
     img
     {
-        width: 65%;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     section
     {
@@ -40,10 +45,15 @@
     #full-dev
     {
         margin-bottom: 20px;
+        height: 385px;
+    }
+    #baby-dev
+    {
+        height: 385px;
     }
     footer
     {
-        margin-top: 150px;
+        margin-top: 350px;
     }
     
 
