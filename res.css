@@ -1,0 +1,50 @@
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    
+    
+
+
+    .half-width
+    {
+        width:100%;
+        float: none;
+        margin-left: none;
+        padding: none;
+       
+    }
+    img
+    {
+        width: 65%;
+    }
+    section
+    {
+        margin-bottom:100px;
+    }
+   .hire-button
+    {
+        display:inline-block;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .download-button
+    {
+        display:inline-block;
+        width: 80%;
+        text-align: center;
+    }
+    #full-dev
+    {
+        margin-bottom: 20px;
+    }
+    footer
+    {
+        margin-top: 150px;
+    }
+    
+
+}
